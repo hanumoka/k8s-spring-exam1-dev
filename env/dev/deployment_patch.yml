@@ -1,0 +1,12 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: spring-deployment
+spec:
+  template:
+    spec:
+      containers:
+        - name: spring-container
+          image: hanumoka/k8s-spring-exam1:latest
+          ports:
+            - containerPort: 8080

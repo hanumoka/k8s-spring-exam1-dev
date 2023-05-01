@@ -1,0 +1,13 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: spring-service
+spec:
+  selector:
+    app: k8s-spring-exam1
+  ports:
+    - protocol: TCP
+      port: 8080
+      targetPort: 8080
+      nodePort: 30080
+  type: NodePort

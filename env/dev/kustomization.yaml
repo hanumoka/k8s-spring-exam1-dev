@@ -3,4 +3,8 @@ kind: Kustomization
 commonLabels:
   env: dev
 resources:
-  - ../../base
+- ../../base
+images:
+- name: hanumoka/k8s-spring-exam1
+  newName: hanumoka/k8s-spring-exam1
+  newTag: build-25-706830a03cdb917c309a84d192b8aa30c556c257

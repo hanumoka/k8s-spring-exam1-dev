@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: spring-deployment
 spec:
-  replicas: 1
+  replicas: 3
   selector:
     matchLabels:
       app: k8s-spring-exam1

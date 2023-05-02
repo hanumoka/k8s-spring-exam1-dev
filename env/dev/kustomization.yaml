@@ -3,4 +3,4 @@ kind: Kustomization
 commonLabels:
   env: dev
 resources:
-  - ../../../base
+  - ../../base

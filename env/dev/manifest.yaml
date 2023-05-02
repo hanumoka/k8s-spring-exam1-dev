@@ -34,7 +34,7 @@ spec:
         env: dev
     spec:
       containers:
-      - image: hanumoka/k8s-spring-exam1:build-30-eb230ea629ab5209d2f87b452dafdefc4ef710c8
+      - image: hanumoka/k8s-spring-exam1:build-31-11c026f57342ee953b7675e07f6664887a400324
         name: spring-container
         ports:
         - containerPort: 8080

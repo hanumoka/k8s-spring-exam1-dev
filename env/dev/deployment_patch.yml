@@ -6,7 +6,5 @@ spec:
   template:
     spec:
       containers:
-        - name: spring-container
-          image: hanumoka/k8s-spring-exam1:latest
-          ports:
-            - containerPort: 8080
+        ports:
+          - containerPort: 8080

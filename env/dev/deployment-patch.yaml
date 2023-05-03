@@ -3,15 +3,3 @@ kind: Deployment
 metadata:
   name: k8s-spring-exam1
   namespace: dev
-spec:
-  template:
-    spec:
-      containers:
-        - name: k8s-spring-exam1
-          resources:
-            limits:
-              cpu: 500m
-              memory: 256Mi
-            requests:
-              cpu: 250m
-              memory: 128Mi

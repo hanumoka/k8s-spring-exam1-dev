@@ -7,4 +7,4 @@ resources:
 images:
 - name: hanumoka/k8s-spring-exam1
   newName: hanumoka/k8s-spring-exam1
-  newTag: build-34-f156ae6436a5f56c193296416318c56622006dbb
+  newTag: build-35-f156ae6436a5f56c193296416318c56622006dbb

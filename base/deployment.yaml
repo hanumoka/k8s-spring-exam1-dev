@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: spring-deployment
+  name: k8s-spring-exam1
 spec:
   replicas: 1
   selector:
@@ -13,7 +13,7 @@ spec:
         app: k8s-spring-exam1
     spec:
       containers:
-        - name: spring-container
+        - name: k8s-spring-exam1
           image: hanumoka/k8s-spring-exam1:latest
           ports:
             - containerPort: 8080

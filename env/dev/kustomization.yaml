@@ -6,6 +6,7 @@ resources:
   - ../../base
 patchesStrategicMerge:
   - deployment-patch.yaml
+  - service-patch.yaml
 images:
   - name: hanumoka/k8s-spring-exam1
     newName: hanumoka/k8s-spring-exam1

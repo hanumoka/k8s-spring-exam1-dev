@@ -8,6 +8,9 @@ spec:
     spec:
       containers:
         - name: k8s-spring-exam1
+          env:
+            - name: SPRING_PROFILES_ACTIVE
+              value: "dev"
           resources:
             limits:
               cpu: 500m

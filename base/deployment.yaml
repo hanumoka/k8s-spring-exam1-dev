@@ -16,6 +16,9 @@ spec:
     spec:
       containers:
         - name: k8s-spring-exam1
+          env:
+            - name: SPRING_PROFILES_ACTIVE
+              value: "default"
           image: hanumoka/k8s-spring-exam1:latest
           ports:
             - containerPort: 8080

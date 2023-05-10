@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: k8s-spring-exam1
 spec:
-  replicas: 3 # 변경된 부분: replicas를 3개로 변경
+  replicas: 1 # 변경된 부분: replicas를 3개로 변경
   template:
     spec:
       containers:
